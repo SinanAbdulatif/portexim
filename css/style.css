@@ -1824,8 +1824,8 @@
       border: 0;
     }
   }
-
-  @media (max-width: 767.98px) {
+  
+  @media (max-width: 768px) {
     .table-responsive-md {
       display: block;
       width: 100%;
@@ -1833,12 +1833,24 @@
       -webkit-overflow-scrolling: touch;
     }
     .mobile {
-      flex-basis: 33%; /* Display two columns per row on screens up to 767px wide */
+      width: 50%;
+      flex-basis: 20%; 
+  }
+  .smalll{
+    font-size: 80%;
+  }
+  .smallll{
+    font-size: 50%;
+  }
+
+  .remo{
+    height: 2px;
   }
  
     .table-responsive-md > .table-bordered {
       border: 0;
     }
+  
   }
 
   @media (max-width: 991.98px) {
